@@ -1,0 +1,126 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('http://tecnosophia.cl/wp-content/uploads/2014/06/Western-Road-1278x500.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.input-group {
+    margin-top: 16px;
+}
+
+#input-container {
+  padding-bottom: 40px;
+}
+
+#submit-container {
+  margin-top: 24px;
+  display: inline-block;
+  float: left;
+}
+
+/*#basic-addon2:last-child {
+  display: inherit;
+  border-left: 0;
+  padding-bottom: 12px;
+}*/
+
+.input-group-addon {
+  width: 125px;
+}
+
+#user-msg-form {
+  width: 350px;
+  height: 212px;
+}
+
+#username-input-container {
+  width: 225px;
+}
+
+
+#email-input-container {
+  width: 225px;
+}
+
+/*
+.gallery-content {
+     color: #F5F5F5;
+     text-align: center;
+     padding-top: 80px;
+     display: block;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     background-color: rgba(0,0,0,0.5);
+     transition: opacity 0.5s ease;
+
+}
+
+.gallery-content-text {
+     transform: translate3d(0, 24px, 0) scaleY(0);
+     transition: transform 0.4s linear;
+     display: block;
+
+}
+
+.gallery-content:hover .gallery-content-text {
+     transform: translate3d(0, 0, 0) scaleY(1);
+
+}
+*/

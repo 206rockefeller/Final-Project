@@ -1,0 +1,88 @@
+<!-- input  -->
+
+<!-- form w/input -->
+
+<!-- empty UL  -->
+
+<!-- counter -->
+
+<!-- two buttons to clear the list -->
+
+<!-- 
+Event Delegation 
+
+How would you select the <a> elements within this unordered list?
+
+<ul id="main">
+	<li><a href="">Item 1</a></li>
+	<li><a href="">Item 2</a></li>
+	<li><a href="">Item 3</a></li>
+
+</ul>
+
+
+$('#main a').on('click' , function(){})
+
+$('#main').on('click' , 'a' , function(){
+	//do something here
+})
+
+
+Event Propogation
+
+
+Anytime on of our anchor tags is clicked a 'click' event is triggered. But it doesn't stop there it 'bubbles' up. So it will move the dom tree and trigger the click event on each of it parent elements.
+ -->
+
+
+<!DOCTYPE html>
+<head>
+     <meta charset="utf-8">
+   <meta name="description" content="Your description goes here">
+   <meta name="keywords" content="one, two, three">
+   <title>To Do List</title>
+   <!-- external CSS link -->
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,800,600' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <div id="app"> 
+
+      <header>
+        <h1>TO-DO-LIST</h1>
+
+          <form id="formItem">
+            Enter item: <input id="newItem"> <button id="add">Add to list</button>  
+          </form>
+      </header>
+
+      <ul id="todos">
+        
+      <!-- <li>
+          <input value="First Item" type="text"></input>&nbsp;&nbsp;
+          <input  type="button" value="edit" class="edit"></input>
+          &nbsp;&nbsp;
+          <input value="remove" type="button" class="remove"></imput></li> -->
+      </ul>
+
+      <footer>
+
+        <div class="status">
+          <p>
+            You have <span id="count">0</span> todos left
+          </p>
+        </div>
+        <div class="controls">
+            <button id="clear">Clear List</button>
+            <button id="clearCompleted">Clear Completed</button>
+        </div>
+
+      </footer>
+    </div>
+
+<!-- <input value="Clear List" type="button" class="clear-list"></input>   "original" -->
+</form>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+   <script src="to-do.js"></script>
+</body>
+</html>
